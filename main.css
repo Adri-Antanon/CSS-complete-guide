@@ -2,7 +2,7 @@
 @import "./styles/header.css";
 
 #product-overview {
-  background: #ff1b68;
+  background: url("./assets/backgrounds/freedom.jpg");
   width: 100%;
   height: 52.8rem;
 }

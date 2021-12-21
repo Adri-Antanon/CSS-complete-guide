@@ -35,12 +35,26 @@
 .main-nav__item a {
   text-decoration: none;
   color: var(--brand-color);
+  font-weight: bold;
+  padding: 0.3rem 0;
 }
 
-.main-nav__item a:hover {
-  color: white;
-}
-
+.main-nav__item a:hover,
 .main-nav__item a:active {
+  border-bottom: 0.5rem solid white;
   color: white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: var(--cta-color);
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: var(--cta-color);
+  background: white;
+  border: none;
 }
