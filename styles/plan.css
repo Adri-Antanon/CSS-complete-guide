@@ -20,4 +20,9 @@
 }
 
 .plan__annotation {
+  background: white;
+  border-radius: 0.8rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--shadow-recommended-color);
+  padding: 0.8rem;
+  color: var(--dark-green);
 }
