@@ -12,3 +12,12 @@
   width: 30%;
   vertical-align: middle;
 }
+
+.plan--highlighted {
+  background: var(--dark-green);
+  color: white;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--shadow-recommended-color);
+}
+
+.plan__annotation {
+}
