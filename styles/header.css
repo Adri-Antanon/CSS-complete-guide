@@ -9,7 +9,7 @@
   vertical-align: middle;
 }
 .main-header__brand {
-  color: #0e4f1f;
+  color: var(--brand-color);
   text-decoration: none;
   font-weight: bold;
   font-size: 2.2rem;
@@ -29,4 +29,18 @@
 
 .main-nav__item {
   display: inline-block;
+  margin: 0 1.6rem;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: var(--brand-color);
+}
+
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a:active {
+  color: white;
 }
