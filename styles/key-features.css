@@ -1,0 +1,38 @@
+#key-features {
+  background: var(--red-color);
+  margin-top: 8rem;
+  padding: 1.6rem;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 3.2rem;
+}
+.key-features__list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  list-style: none;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+
+.key-feature__image {
+  background: var(--light-red);
+  width: 12.8rem;
+  border: 0.2rem solid var(--grey-color);
+  border-radius: 50%;
+  height: 12.8rem;
+  margin: auto;
+}

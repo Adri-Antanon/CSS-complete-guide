@@ -1,9 +1,11 @@
 :root {
   --brand-color: #0e4f1f;
-  --cta-color: #ff1b68;
+  --red-color: #ff1b68;
+  --light-red: #ffcede;
   --main-color: #2ddf5c;
   --light-green: #d5ffdc;
   --dark-green: #19b84c;
+  --grey-color: #424242;
   --shadow-recommended-color: rgba(0, 0, 0, 0.5);
 }
 

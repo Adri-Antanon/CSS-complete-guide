@@ -47,14 +47,14 @@
 
 .main-nav__item--cta a {
   color: white;
-  background: var(--cta-color);
+  background: var(--red-color);
   padding: 0.8rem 1.6rem;
   border-radius: 0.8rem;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-  color: var(--cta-color);
+  color: var(--red-color);
   background: white;
   border: none;
 }
