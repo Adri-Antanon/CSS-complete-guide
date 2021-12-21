@@ -1,5 +1,5 @@
 .main-header {
-  background-color: lightgreen;
+  background-color: var(--main-color);
   width: 100%;
   padding: 0.8rem 1.6rem;
 }

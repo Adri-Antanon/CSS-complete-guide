@@ -1,0 +1,14 @@
+.section-title {
+  color: var(--main-color);
+  text-align: center;
+}
+
+.plan {
+  background-color: var(--light-green);
+  text-align: center;
+  padding: 1.6rem;
+  margin: 0.8rem;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
