@@ -1,13 +1,12 @@
 html {
   font-size: 62.5%;
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6em;
   margin: 0;
-}
-
-* {
-  box-sizing: border-box;
 }
