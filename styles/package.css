@@ -5,7 +5,7 @@ main {
 .package {
   width: 80%;
   margin: 1.6rem 0;
-  border: 0.4rem solid var(--brand-color);
+  border: var(--package-border);
   border-left: none;
   background: var(--light-green);
 }
@@ -17,10 +17,13 @@ main {
   padding: 3.2rem;
 }
 
-.package--premiun {
-  background: var(--brand-color);
+.package:hover,
+.package:active {
+  box-shadow: 2px 2px 4px var(--shadow-recommended-color);
+  border-color: var(--red-color);
 }
-.package--premiun .package__title {
+
+#premiun .package__title {
   color: white;
 }
 
@@ -28,9 +31,28 @@ main {
   color: var(--light-grey);
 }
 
-.package__description {
-  padding: 2rem;
+.package__info {
+  padding: 1.6rem;
   background: white;
   font-size: 1.4rem;
-  border: 0.2rem solid black;
+  border: 0.1rem solid var(--brand-color);
+}
+
+.clearfix {
+  clear: both;
+}
+
+#plus {
+  background: var(--plus-green);
+}
+
+#free {
+  background: var(--free-green);
+  float: right;
+  border-right: none;
+  border-left: var(--package-border);
+}
+
+#premiun {
+  background: var(--premiun-green);
 }

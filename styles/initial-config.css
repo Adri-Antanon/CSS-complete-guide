@@ -4,10 +4,14 @@
   --light-red: #ffcede;
   --main-color: #2ddf5c;
   --light-green: #d5ffdc;
+  --plus-green: rgba(213, 255, 220, 0.95);
+  --free-green: rgba(234, 252, 237, 0.95);
+  --premiun-green: rgba(14, 79, 31, 0.95);
   --dark-green: #19b84c;
   --grey-color: #424242;
   --light-grey: #8d8c88;
   --shadow-recommended-color: rgba(0, 0, 0, 0.5);
+  --package-border: 0.4rem solid var(--brand-color);
 }
 
 html {
