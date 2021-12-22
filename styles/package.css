@@ -53,6 +53,11 @@ main {
   border-left: var(--package-border);
 }
 
+#free:hover,
+#free:active {
+  border-left-color: var(--red-color);
+}
+
 #premiun {
   background: var(--premiun-green);
 }

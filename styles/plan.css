@@ -50,3 +50,9 @@
 .plan--highlighted .plan__title {
   color: white;
 }
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
