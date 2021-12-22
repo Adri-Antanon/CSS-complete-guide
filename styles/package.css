@@ -1,0 +1,36 @@
+main {
+  padding-top: 3.2rem;
+}
+
+.package {
+  width: 80%;
+  margin: 1.6rem 0;
+  border: 0.4rem solid var(--brand-color);
+  border-left: none;
+  background: var(--light-green);
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 3.2rem;
+}
+
+.package--premiun {
+  background: var(--brand-color);
+}
+.package--premiun .package__title {
+  color: white;
+}
+
+.package__subtitle {
+  color: var(--light-grey);
+}
+
+.package__description {
+  padding: 2rem;
+  background: white;
+  font-size: 1.4rem;
+  border: 0.2rem solid black;
+}

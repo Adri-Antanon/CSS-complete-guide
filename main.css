@@ -1,7 +1,5 @@
-@import "./styles/initial-config.css";
-@import "./styles/header.css";
+@import "./styles/shared.css";
 @import "./styles/product.css";
 @import "./styles/plan.css";
 @import "./styles/buttons.css";
 @import "./styles/key-features.css";
-@import "./styles/footer.css";
