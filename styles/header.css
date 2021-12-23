@@ -5,6 +5,7 @@
   top: 0;
   left: 0;
   padding: 0.8rem 1.6rem;
+  z-index: 1;
 }
 
 .main-header > div {

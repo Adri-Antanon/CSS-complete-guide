@@ -16,6 +16,7 @@ main {
   border: var(--package-border);
   border-left: none;
   background: var(--light-green);
+  position: relative;
 }
 
 .package a {
@@ -33,6 +34,17 @@ main {
 
 #premiun .package__title {
   color: white;
+}
+
+.package__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2rem;
+  font-size: 1.2rem;
+  color: white;
+  background: var(--red-color);
+  padding: 0.8rem;
 }
 
 .package__subtitle {
