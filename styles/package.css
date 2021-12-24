@@ -17,6 +17,7 @@ main {
   border-left: none;
   background: var(--light-green);
   position: relative;
+  z-index: 1;
 }
 
 .package a {
@@ -45,6 +46,7 @@ main {
   color: white;
   background: var(--red-color);
   padding: 0.8rem;
+  z-index: 10;
 }
 
 .package__subtitle {
